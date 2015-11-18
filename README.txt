@@ -15,6 +15,8 @@ what we want to do ~~
 										vector<idouble> ivDSData
 										
 	 	class called	DSDrawThePicture
+							member
+								std::vector<double> * storgeOfData; to storge the data in a vector <double>
 							interface:
 								DSProductAPicture
 								DSSaveThePicture
