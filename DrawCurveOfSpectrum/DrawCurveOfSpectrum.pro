@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    DSRreadTheFile.cc \
+    DSDrawThePicture.cc
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    DSRreadTheFile.h \
+    DSDrawThePicture.h
 
 FORMS    += mainwindow.ui
